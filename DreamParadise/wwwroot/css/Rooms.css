@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    background-color: #f0f4f7;
+    color: #717787;
+}
+
+.pricingTable {
+    margin: 40px auto;
+}
+
+.pricingTable-title {
+    text-align: center;
+    color: #6e768d;
+    font-size: 3em;
+    font-size: 300%;
+    margin-bottom: 20px;
+    letter-spacing: 0.04em;
+}
+
+.pricingTable-subtitle {
+    text-align: center;
+    color: #b4bdc6;
+    font-size: 1.8em;
+    letter-spacing: 0.04em;
+    margin-bottom: 60px;
+}
+
+.pricingTable-firstTable {
+    list-style: none;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+}
+
+.pricingTable-firstTable_table {
+    vertical-align: middle;
+    width: 31%;
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 0px 30px 40px;
+    text-align: center;
+    max-width: 320px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.pricingTable-firstTable_table__header {
+    font-size: 1.6em;
+    padding: 40px 0px;
+    border-bottom: 2px solid #ebedec;
+    letter-spacing: 0.03em;
+}
+
+.pricingTable-firstTable_table__pricing {
+    font-size: 3em;
+    padding: 30px 0px;
+    border-bottom: 2px solid #ebedec;
+    line-height: 0.7;
+}
+
+.pricingTable-firstTable_table__pricing span:first-of-type {
+    font-size: 0.35em;
+    vertical-align: top;
+    letter-spacing: 0.15em;
+}
+
+.pricingTable-firstTable_table__pricing span:last-of-type {
+    vertical-align: bottom;
+    font-size: 0.30em;
+    letter-spacing: 0.04em;
+    padding-left: 0.2em;
+}
+
+.pricingTable-firstTable_table__options {
+    list-style: none;
+    padding: 15px;
+    font-size: 0.9em;
+    border-bottom: 2px solid #ebedec;
+}
+
+.pricingTable-firstTable_table__options li {
+    padding: 8px 0px;
+}
+
+.pricingTable-firstTable_table__options li:before {
+    content: '✓';
+    display: inline-flex;
+    margin-right: 15px;
+    color: white;
+    background-color: #74ce6a;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 0.8em;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricingTable-firstTable_table__getstart {
+    color: white;
+    border: 0;
+    background-color: #71ce73;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 15px;
+    box-shadow: 0px 3px 0px 0px rgba(102, 172, 100, 1);
+    letter-spacing: 0.07em;
+    transition: all 0.4s ease;
+}
+
+.pricingTable-firstTable_table__getstart:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 40px 29px -19px rgba(102, 172, 100, 0.9);
+}
+
+.pricingTable-firstTable_table__getstart:active {
+    box-shadow: inset 0 0 10px 1px rgba(102, 165, 100, 1), 0px 40px 29px -19px rgba(102, 172, 100, 0.95);
+    transform: scale(0.95) translateY(-9px);
+}

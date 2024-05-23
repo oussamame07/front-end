@@ -1,0 +1,129 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - DreamParadise</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/DreamParadise.styles.css" asp-append-version="true" />
+    <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/fonts/antonio-exotic/stylesheet.css" rel="stylesheet">
+    <link href="~/css/lightbox.min.css" rel="stylesheet">
+    <link href="~/css/responsive.css" rel="stylesheet">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/lightbox-plus-jquery.min.js"></script>
+    <script src="~/js/instafeed.min.js"></script>
+    <script src="~/js/custom.js"></script>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+    <div class="container">
+        <address class="topbar-item">
+            <div class="icon">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">Hôtel, Carthage Dream Paradise</span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+            <div class="icon">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+            </div>
+            @* <span class="span">Daily: 8.00 am to 10.00 pm</span> *@
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+            <div class="icon">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">+216 23 456 7890</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@dream-paradise.com" class="topbar-item link">
+            <div class="icon">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+            <span class="span">booking@dream-paradise.com</span>
+        </a>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="header" data-header>
+    <div class="container">
+        <a asp-controller="Home" asp-action="Index" class="active navbar-link hover-underline" data-hover="Home">
+            <img src="~/wwwroot/lib/image/dream.png" width="160" height="50" alt="Dream Paradise">
+        </a>
+
+        <nav class="navbar" data-navbar>
+            <button class="close-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <a data-hover="Home" class="active navbar-link hover-underline" asp-controller="Home" asp-action="Index">
+                <span>Home</span>
+            </a>
+
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a class="navbar-link hover-underline" asp-controller="Home" asp-action="About">
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link hover-underline" asp-controller="Home" asp-action="Rooms">
+                        <span>Rooms</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link hover-underline" asp-controller="Home" asp-action="Reservations">
+                        <span>Reservations</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link hover-underline" asp-controller="Home" asp-action="ContactUs">
+                        <span>Contact Us</span>
+                    </a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link hover-underline" asp-controller="LogReg" asp-action="LogReg">
+                        <span>Login</span>
+                    </a>
+                </li>
+            </ul>
+
+            <a class="navbar-link hover-underline" asp-controller="Home" asp-action="Booking">
+                <button type="button" class="book-now-btn">Book Now</button>
+            </a>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+</header>
+
+<div class="container-fluid">
+    <main role="main" class="pb">
+        @RenderBody()
+    </main>
+</div>
+
+<!-- Scripts -->
+<script src="~/js/script.js" asp-append-version="true"></script>
+@RenderSection("Scripts", required: false)
+</body>
+</html>

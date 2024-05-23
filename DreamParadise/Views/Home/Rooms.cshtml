@@ -1,0 +1,254 @@
+
+@{
+    ViewData["Title"] = "Rooms";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Style.css">
+    @* <link rel="stylesheet" href="~/css/site.css"> *@
+    <!-- Include any additional CSS files -->
+</head>
+
+<body class="container-fluid">
+
+<section class="hero text-center" aria-label="home" id="home">
+  <ul class="hero-slider" data-hero-slider>
+    <li class="slider-item active" data-hero-slider-item>
+      <div class="slider-bg">
+        <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="auto" height="950" alt="" class="img-cover">
+      </div>
+      <p class="label-2 section-subtitle slider-reveal">Chambres & Suites </p>
+      <h1 class="display-1 hero-title slider-reveal">
+        Spend sweet <br>
+         and soothing nights
+      </h1>
+      <p class="body-2 hero-text slider-reveal">
+        Luxury Accommodations
+      </p>
+      @* <a href="#" class="btn btn-primary slider-reveal">
+        <span class="text text-1">View Our Menu</span>
+        <span class="text text-2" aria-hidden="true">View Our Menu</span>
+      </a> *@
+    </li>
+    <!-- Repeat similar structure for other slides -->
+  </ul>
+  <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+    <ion-icon name="chevron-back"></ion-icon>
+  </button>
+  <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+    <ion-icon name="chevron-forward"></ion-icon>
+  </button>
+  <a href="#" class="hero-btn has-after">
+    <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="48" height="48" alt="booking icon">
+    <span class="label-2 text-center span">Book </span>
+  </a>
+</section>
+
+<section class="section service bg-black-10 text-center" aria-label="service">
+    <div class="container">
+        <p class="section-subtitle label-2">Rooms</p>
+        <h2 class="headline-1 section-title">Luxury Accommodations</h2>
+        <p class="section-text">
+Our hotel boasts a range of exquisitely designed rooms and suites, each offering stunning views
+ and state-of-the-art facilities. 
+ From plush bedding to modern decor, every aspect of our accommodations is crafted to provide the utmost comfort and style.
+        </p>
+        <ul class="grid-list">
+            <!-- Your service cards -->
+        </ul>
+        <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim">
+        <img src="https://wallpapercave.com/wp/wp3598845.jpgg" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim">
+    </div>
+</section>
+
+<section class="section about text-center" aria-labelledby="about-label" id="about">
+    <div class="container">
+        <div class="about-content">
+            <p class="label-2 section-subtitle" id="about-label">Our guests </p>
+            <h2 class="headline-1 section-title">Unforgettable Experiences</h2>
+            <p class="section-text">
+              At DreamParadise, we strive to create unforgettable experiences for our guests.
+               Whether you're exploring the city, relaxing by the pool,
+                or enjoying a gourmet meal, our goal is to make your stay as enjoyable and memorable as
+                 possible.
+            </p>
+            <div class="contact-label">Book Through Call</div>
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+80 (400) 123 4567</a>
+            @* <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read More</span>
+                <span class="text text-2" aria-hidden="true">Read More</span>
+            </a> *@
+        </div>
+        <figure class="about-banner">
+            <img src="https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_1280.jpg" width="570" height="570" loading="lazy" alt="about banner" class="w-100" data-parallax-item data-parallax-speed="1">
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+                <img src="https://cdn.pixabay.com/photo/2017/07/31/21/14/architecture-2561129_1280.jpg" width="285" height="285" loading="lazy" alt="additional decoration" class="w-100">
+            </div>
+
+        </figure>
+    </div>
+</section>
+
+<section class="special-dish text-center" aria-labelledby="dish-label">
+    <div class="special-dish-banner">
+        <img src="https://cdn.pixabay.com/photo/2012/12/19/18/13/architecture-70920_1280.jpg" width="940" height="900" loading="lazy" alt="special dish" class="img-cover">
+    </div>
+    <div class="special-dish-content bg-black-10">
+        <div class="container-fluid">
+            <img src="https://cdn.pixabay.com/photo/2017/05/20/08/36/panorama-of-the-landscape-2328387_1280.jpg" width="280" height="41" loading="lazy" alt="badge" class="abs-img">
+            <p class="section-subtitle label-2">Special Dish</p>
+            <h2 class="headline-1 section-title">Discover the Difference</h2>
+            <p class="section-text">
+      Experience the epitome of luxury and hospitality at DreamParadise.
+       Whether you're here for a relaxing getaway or a productive business trip,
+        we are dedicated to making your stay unforgettable. 
+        Discover the difference that sets us apart and indulge in the exceptional service and comfort that DreamParadise offers.
+            </p>
+        </div>
+    </div>
+    @* <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="179" height="359" loading="lazy" alt="" class="shape shape-1"> *@
+    @* <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="351" height="462" loading="lazy" alt="" class="shape shape-2"> *@
+</section>
+
+<section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Flavors For Royalty</p>
+
+          <h2 class="headline-1 section-title">
+Our elegantly designed rooms and suites are the epitome of comfort and style</h2>
+
+          <p class="section-text">
+reathtaking Views: Enjoy stunning vistas of the city skyline or our beautifully
+ landscaped gardens.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="https://wallpapercave.com/wp/wp3598845.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">2 Queen </a>
+                  </h3>
+
+                  @* <a href="#" class="btn-text hover-underline label-2">View Menu</a> *@
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">King View</a>
+                  </h3>
+
+                  @* <a href="#" class="btn-text hover-underline label-2">View Menu</a> *@
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Skyline Junior Suite</a>
+                  </h3>
+
+                  @* <a href="#" class="btn-text hover-underline label-2">View Menu</a> *@
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+    <div class="pricingTable">
+        <h2 class="pricingTable-title">Find a plan that's right for you.</h2>
+        <ul class="pricingTable-firstTable">
+            <li class="pricingTable-firstTable_table">
+                <h1 class="pricingTable-firstTable_table__header">Bronze Package</h1>
+                <p class="pricingTable-firstTable_table__pricing"><span>$</span><span>10</span><span>/Month</span></p>
+                <ul class="pricingTable-firstTable_table__options">
+                    <li>Unlimited Listing</li>
+                    <li>Edit Your Listing</li>
+                    <li>Approve Reviews</li>
+                </ul>
+                <a asp-action="Booking" asp-controller="Home">
+                    <button class="pricingTable-firstTable_table__getstart">Get Started Now</button>
+                </a>
+            </li>
+            <li class="pricingTable-firstTable_table">
+                <h1 class="pricingTable-firstTable_table__header">Gold Package</h1>
+                <p class="pricingTable-firstTable_table__pricing"><span>$</span><span>19</span><span>/Month</span></p>
+                <ul class="pricingTable-firstTable_table__options">
+                    <li>Unlimited Listing</li>
+                    <li>Edit Your Listing</li>
+                    <li>Approve Reviews</li>
+                    <li>Take Booking Online</li>
+                    <li>24/7 Support Service</li>
+                </ul>
+                <a asp-action="Booking" asp-controller="Home">
+                    <button class="pricingTable-firstTable_table__getstart">Get Started Now</button>
+                </a>
+            </li>
+            <li class="pricingTable-firstTable_table">
+                <h1 class="pricingTable-firstTable_table__header">Platinum Package</h1>
+                <p class="pricingTable-firstTable_table__pricing"><span>$</span><span>49</span><span>/Month</span></p>
+                <ul class="pricingTable-firstTable_table__options">
+                    <li>Unlimited Listing</li>
+                    <li>Edit Your Listing</li>
+                    <li>Approve Reviews</li>
+                </ul>
+                <a asp-action="Booking" asp-controller="Home">
+                    <button class="pricingTable-firstTable_table__getstart">Get Started Now</button>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

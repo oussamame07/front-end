@@ -1,0 +1,26 @@
+@model LoginUser
+
+<body>
+    <div class="container mt-5">
+         <fieldset class="border border-dark p-4">
+        <legend>Login</legend>
+            <form asp-action="Login" asp-controller="LogReg" method="post">
+            <div class="mb-3">
+                    <label asp-for="LoginEmail" class="form-label">Email</label>
+                    <input asp-for="LoginEmail" class="form-control">
+                    <span asp-validation-for="LoginEmail" class="text-danger"></span>
+                </div>
+            <div class="mb-3">
+                    <label asp-for="LoginPassword" class="form-label">Password:</label>
+                    <input asp-for="LoginPassword" class="form-control">
+                    <span asp-validation-for="LoginPassword" class="text-danger"></span>
+                </div>
+            
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+        </fieldset>
+
+    </div>
+
+</body>
+</html>

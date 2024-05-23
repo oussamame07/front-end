@@ -1,0 +1,51 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+@model Reservation
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+</head>
+<body class="bg-light">
+    <div class="container vh-50 d-flex flex-column justify-content-center">
+        <h1 class="text-center text-Black mb-4">Book now</h1>
+        <div class="bg-white p-4 rounded shadow">
+            <form asp-action="CreateReservation" method="post" asp-controller="Home" id="reservationForm">
+                <div class="form-group">
+                    <label for="CheckIn">Date de début de la réservation :</label>
+                    <input asp-for="CheckIn" id="checkingIn" class="form-control">
+                    <span asp-validation-for="CheckIn" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="CheckOut">Date de sortie de l'hôtel :</label>
+                    <input asp-for="CheckOut" id="checkingout" class="form-control">
+                    <span asp-validation-for="CheckOut" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Rooms :</label>
+                    <select id="guests" name="guests" class="form-control" onchange="toggleChildrenFields()">
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="single">Single Room</option> 
+                        <option value="couple">Family Room</option>
+                        <option value="couple with children">Suite</option> 
+                    </select>
+
+                    <span asp-validation-for="CheckOut" class="text-danger"></span>
+                </div>
+                <div id="childrenFields" class="form-group" style="display: none;">
+                    <label for="childCount">Number of children:</label>
+                    <input asp-for="ChildCount" class="form-control" >
+                </div>
+                <div id="childrenFields" class="form-group" style="display: none;">
+                    <label for="childCount">Total price :</label>
+                    <input asp-for="ChildCount" class="form-control" >
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Book</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

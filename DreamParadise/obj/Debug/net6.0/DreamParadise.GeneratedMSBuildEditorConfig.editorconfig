@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DreamParadise
+build_property.RootNamespace = DreamParadise
+build_property.ProjectDir = C:\Users\prese\Downloads\FinalProject-master (2)\FinalProject-master\DreamParadise\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\prese\Downloads\FinalProject-master (2)\FinalProject-master\DreamParadise
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/Booking.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb29raW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/Reservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNlcnZhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Home/Rooms.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSb29tcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/LogReg/LogReg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nUmVnXExvZ1JlZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/LogReg/_LoginForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nUmVnXF9Mb2dpbkZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/LogReg/_RegistrationForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nUmVnXF9SZWdpc3RyYXRpb25Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/prese/Downloads/FinalProject-master (2)/FinalProject-master/DreamParadise/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lgg2l2j2gh
